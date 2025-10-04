@@ -25,6 +25,8 @@ jobs:
             php: 8.1
           - laravel: 12.*
             livewire: 2.11
+          - laravel: 10.*
+            php: 8.5
 
     name: P${{ matrix.php }} - L${{ matrix.laravel }} - LW${{ matrix.livewire }} -${{ matrix.stability }} - ${{ matrix.os }}
 
